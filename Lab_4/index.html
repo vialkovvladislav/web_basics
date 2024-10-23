@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма з елементами введення</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Форма з елементами введення</h1>
+    <form id="myForm" action="https://httpbin.org/post" method="post">
+      <label for="name">Ім'я:</label>
+      <input type="text" id="name" name="username" /><br /><br />
+
+      <label for="birthdate">Дата народження:</label>
+      <input type="date" id="birthdate" name="birthdate" /><br /><br />
+
+      <label>Імейл: <input type="email" name="email" /> </label><br /><br />
+
+      <label for="comments">Повідомлення:</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea
+      ><br /><br />
+
+
+      <fieldset>
+        <legend>Ваші улюблені напої?</legend>
+        <label><input type="checkbox" name="drinks" value="Кава" /> Кава</label
+        ><br />
+        <label><input type="checkbox" name="drinks" value="Чай" /> Чай</label
+        ><br />
+        <label><input type="checkbox" name="drinks" value="Сік" /> Сік</label
+        ><br />
+        <label><input type="checkbox" name="drinks" value="Вода" /> Вода</label>
+      </fieldset>
+      <br />
+
+  
+      <fieldset>
+        <legend>Моя національність</legend>
+        <label
+          ><input type="radio" name="nationality" value="Українець" />
+          Українець</label
+        ><br />
+        <label
+          ><input type="radio" name="nationality" value="Американець" />
+          Американець</label
+        ><br />
+        <label
+          ><input type="radio" name="nationality" value="Інше" /> Інше</label
+        >
+      </fieldset>
+      <br />
+
+      <button type="submit">Відправити</button>
+      <button type="reset">Очистити</button>
+    </form>
+
+    <h2>Динамічне зображення</h2>
+    <picture>
+
+      <source
+        media="(max-width: 468px)"
+        srcset="https://static-cse.canva.com/blob/847064/29.jpg"
+      />
+
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_LUNJngOd30HT7IPSUAOZa9HrisJ_6HQQbQ&s"
+        alt="Демонстраційне зображення"
+      />
+    </picture>
+  </body>
+</html>
