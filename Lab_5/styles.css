@@ -1,0 +1,79 @@
+h1.heading {
+    text-transform: uppercase
+  
+  }
+  
+  ol.goals {
+    color: #ff0000;
+  }
+  
+  
+  ol.goals li {
+    background-color: yellow;
+    font-style: italic;
+  }
+  
+  
+  ol {
+    border: 1px solid red;
+  }
+  
+  
+  
+  
+  a[href$=".pdf"] {
+    color: green;
+    font-style: italic;
+  }
+  
+  
+  a {
+    color: violet;
+    text-decoration: none;
+  }
+  
+  ul ul {
+    text-transform: uppercase; 
+  }
+  
+  p a {
+    color: magenta;
+    background-color: mistyrose;}
+  
+  .bold {
+    font-weight: bold;
+  }
+  ol.goals li:nth-last-child(-n+2),
+  p:first-of-type {
+    font-weight: bold;
+  }
+  
+  li.bold {
+    text-transform: uppercase;
+  }
+  
+  
+  p:nth-of-type(2), p:nth-last-of-type(2) {
+    text-align: right;
+    border: 1px solid blue;
+    font-size: 20px;
+  }
+  
+  
+  h1 {
+    color: green !important;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ol.goals li span {
+    background-color: yellow;
+    display: inline;
+  }
+  
+  .wtf {
+    background-color : yellow ; 
+  }
+  
